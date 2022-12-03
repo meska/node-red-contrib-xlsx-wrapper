@@ -1,0 +1,29 @@
+<script type="text/javascript">
+    RED.nodes.registerType('xlsx-wrapper', {
+        category: 'parser',
+        color: '#736d22',
+        defaults: {
+            name: { value: "" },
+            sheetName: { value: "" }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "font-awesome/fa-file-excel-o",
+        label: function () {
+            return this.name || "xlsx wrapper";
+        }
+    });
+</script>
+
+<script type="text/html" data-template-name="xlsx-out">
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/html" data-help-name="xlsx-out">
+    <p>Converts the payload from a json object array into a buffered xlsx file</p>
+    <h3>Details</h3>
+    <p><code>msg.payload</code> should contains a JSON array of objects.</p>
+</script>
