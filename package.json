@@ -1,7 +1,7 @@
 {
     "name": "node-red-contrib-xlsx-wrapper",
-    "version": "0.0.3",
-    "description": "Nodered wrapper for noxde-xlsx-library",
+    "version": "0.0.4",
+    "description": "Nodered wrapper for node-xlsx-library",
     "main": "xlsx-wrapper/xlsx-wrapper.js",
     "keywords": [
         "node-red",
