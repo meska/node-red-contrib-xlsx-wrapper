@@ -14,7 +14,7 @@
         "type": "git",
         "url": "git+https://github.com/meska/node-red-contrib-xlsx-wrapper.git"
     },
-    "license": "MIT",
+    "license": "Apache-2.0",
     "node-red": {
         "nodes": {
             "xlsx-wrapper": "xlsx-wrapper/xlsx-wrapper.js"
