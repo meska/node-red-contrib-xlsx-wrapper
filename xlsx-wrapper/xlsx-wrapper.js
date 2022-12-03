@@ -1,4 +1,4 @@
-var xlsx = require("jnode-xlsx");
+var xlsx = require("node-xlsx");
 
 module.exports = function (RED) {
     function XlsxWrapper(config) {
