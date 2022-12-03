@@ -1,25 +1,26 @@
 {
-  "name": "node-red-condtrib-xlsx-wrapper",
-  "version": "0.0.1",
-  "description": "Nodered wrapper for noxde-xlsx-library",
-  "main": "xlsx-wrapper/xlsx-wrapper.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "node-red",
-    "JSON to excel",
-    "xlsx",
-    "node-xlsx"
-  ],
-  "author": "Marco Mescalchin",
-  "license": "MIT",
-  "node-red": {
-    "nodes": {
-      "xlsx-wrapper": "xlsx-wrapper/xlsx-wrapper.js"
+    "name": "node-red-condtrib-xlsx-wrapper",
+    "version": "0.0.1",
+    "description": "Nodered wrapper for noxde-xlsx-library",
+    "main": "xlsx-wrapper/xlsx-wrapper.js",
+    "keywords": [
+        "node-red",
+        "JSON to excel",
+        "xlsx",
+        "node-xlsx"
+    ],
+    "author": "Marco Mescalchin",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/meska/node-red-condtrib-xlsx-wrapper.git"
+    },
+    "license": "MIT",
+    "node-red": {
+        "nodes": {
+            "xlsx-wrapper": "xlsx-wrapper/xlsx-wrapper.js"
+        }
+    },
+    "dependencies": {
+        "node-xlsx": "^0.21.0"
     }
-  },
-  "dependencies": {
-    "node-xlsx": "^0.21.0"
-  }
 }
