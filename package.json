@@ -1,5 +1,5 @@
 {
-    "name": "node-red-condtrib-xlsx-wrapper",
+    "name": "node-red-contrib-xlsx-wrapper",
     "version": "0.0.2",
     "description": "Nodered wrapper for noxde-xlsx-library",
     "main": "xlsx-wrapper/xlsx-wrapper.js",
@@ -12,7 +12,7 @@
     "author": "Marco Mescalchin",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/meska/node-red-condtrib-xlsx-wrapper.git"
+        "url": "git+https://github.com/meska/node-red-contrib-xlsx-wrapper.git"
     },
     "license": "MIT",
     "node-red": {
