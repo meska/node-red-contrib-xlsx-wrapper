@@ -1,3 +1,6 @@
 # node-red-contrib-xlsx-wrapper
 
-This node converts payload to an xls file, for the format specification see node-xlsx package
+### NodeRed node that tasforms json to a xlsx buffer
+
+This is just a simple wrapper of node-xlsx module and handles only the build of the xml buffer from a json object.
+
